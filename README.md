@@ -1,4 +1,20 @@
-## Welcome to GitHub Pages
+## 个人信息
+
+张康/男/1987.12
+
+本科/安徽农业大学/07级网络工程系
+
+Github：https://github.com/benbenzk
+
+  Email：javazk@sina.cn
+
+期望工作：大数据研发
+
+爱好： 代码、足球、钓鱼
+
+
+
+
 
 You can use the [editor on GitHub](https://github.com/benbenzk/benbenzk.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 

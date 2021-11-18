@@ -40,8 +40,8 @@ table td{
 }
 
 .person table td img{
-    width: 60%;
-    height: 60%;
+    width: 100px;
+    height: 100px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 50%;

@@ -6,7 +6,6 @@ body{
 }
 #container #left-container{
     float: left;
-    width: 25%;
     border-right: 1px solid #eee;
 }
 
@@ -73,7 +72,6 @@ table td{
 }
 
 #right-container{
-    width: 70%;
     float: left;
 }
 #right-container .header{

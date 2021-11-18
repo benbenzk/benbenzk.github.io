@@ -5,8 +5,8 @@ body{
     color: #333;
 }
 #container #left-container{
-    float: left;
-    border-right: 1px solid #eee;
+    /*float: left;*/
+    /*border-right: 1px solid #eee;*/
 }
 
 .person table{
@@ -71,9 +71,9 @@ table td{
     border: 2px solid #eee;
 }
 
-#right-container{
-    float: left;
-}
+/*#right-container{*/
+/*    float: left;*/
+/*}*/
 #right-container .header{
     margin-left: 5%;
     font-size: 20px;

@@ -1,45 +1,34 @@
 body{
     font-family: "Times New Roman", Times, serif;
     font-size: 14px;
-    line-height: 1.5;
-    color: #333;
-}
-#container #left-container{
-    /*float: left;*/
-    /*border-right: 1px solid #eee;*/
-}
-
-.person table{
-    width: 100%;
     line-height: 2.0;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+    background: #ffffff;
 }
-.person table tr .category{
-    font-weight:bold;
-    font-size: 18px;
-    font-style: italic;
-    line-height: 1.5;
+*, *:after, *:before {
+    box-sizing: border-box;
 }
-
-.person table tr .img{
-    text-align: left;
-    padding-left: 25%;
+#container{
+    width: 80%;
+    min-width: 400px;
+    margin: 0 auto;
+    line-height: 2.0;
+    background: #fbfbfb;
 }
-.person table tr .name{
+#person table tr .label{
+    color: #888;
     width: 25%;
     text-align: right;
     padding-right: 2%;
 }
-.person table tr .vertical-top{
-    vertical-align: top;
-}
-.name .icon{
-    margin-right:20px;
-}
-table td{
-    /*border: 1px solid #ccc;*/
+#person table tr .category{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    color: #000;
 }
 
-.person table td img{
+#person #person-img{
     width: 100px;
     height: 100px;
     margin-right: auto;
@@ -48,36 +37,31 @@ table td{
     vertical-align: middle;
     border: 0
 }
-.person table tr .value{
+#person table tr .vertical-top{
+    vertical-align: top;
+}
+#person table tr .value{
     text-align: left;
     padding-left: 2%;
 }
-
-.person table tr .value .tec{
+#person table tr .value .tec{
     font-style: italic;
-    /*background-color: aquamarine;*/
-    /*width: 50px;*/
-    /*border: 0*/
-
 }
-
-.person .value .big{
+#person .value .big{
     font-size:20px;
 }
-
-#left-container .left-line{
-    width: 98%;
-    text-align: center;
-    border: 2px solid #eee;
+#person .person-detail{
+    margin: 30px 0 0 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+.value .contents{
+    color: #6d6d6d;
+    line-height: 1.5;
 }
 
-/*#right-container{*/
-/*    float: left;*/
-/*}*/
-#right-container .header{
-    margin-left: 5%;
-    font-size: 20px;
-    font-weight: bolder;
-    font-style: italic;
-    border-bottom: 1px solid #333;
+table .date{
+    color: #777;
+    font-size: 14px;
 }

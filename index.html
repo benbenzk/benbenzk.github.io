@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>张康的简历</title>
     <link href="assets/css/index.css" rel="stylesheet"/>
 </head>
 <body>
 <div id="container">
-    <div id="left-container">
-        <div class="person">
-            <table>
-                <tbody>
+    <div id="person">
+        <table>
+            <tbody>
                 <tr>
-                    <td class="name"><img src="assets/img/penguin.png" /></td>
+                    <td class="label">
+                        <img id="person-img" src="assets/img/penguin.png" />
+                    </td>
                     <td class="value">
                         <span class="big">张康</span>
                         <span>/</span>
@@ -24,53 +25,41 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="name">籍贯</td>
+                    <td class="label">籍贯</td>
                     <td class="value">安徽太和</td>
                 </tr>
                 <tr>
-                    <td class="name">现居</td>
+                    <td class="label">🏠现居</td>
                     <td class="value">上海普陀</td>
                 </tr>
                 <tr>
-                    <td  class="name category">教育经历</td>
+                    <td class="label">院校</td>
+                    <td class="value">统招本科 / 安徽农业大学 / 2007.09-2011.07</td>
                 </tr>
                 <tr>
-                    <td class="name">院校</td>
-                    <td class="value">安徽农业大学 / 2007-2011 / 统招本科</td>
+                    <td class="label">专业</td>
+                    <td class="value">网络工程</td>
                 </tr>
                 <tr>
-                    <td class="name">专业</td>
-                    <td class="value">计算机网络工程</td>
-                </tr>
-                <tr>
-                    <td  class="name category">联系方式</td>
-                </tr>
-                <tr>
-                    <td class="name">电话</td>
+                    <td class="label">☎︎电话</td>
                     <td class="value">18149798645</td>
                 </tr>
                 <tr>
-                    <td class="name">邮箱</td>
+                    <td class="label">✉️邮箱</td>
                     <td class="value">javazk@sina.cn</td>
                 </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="left-line"></div>
-        <div class="person">
-            <table>
                 <tr>
-                    <td class="name">Git</td>
+                    <td class="label">Git</td>
                     <td class="value">
                         <a href="https://github.com/benbenzk" target="_blank">https://github.com/benbenzk</a>
                     </td>
                 </tr>
                 <tr>
-                    <td class="name">爱好</td>
+                    <td class="label">❤️爱好</td>
                     <td class="value">编程、钓鱼、足球</td>
                 </tr>
                 <tr>
-                    <td class="name vertical-top">技术栈</td>
+                    <td class="label vertical-top">技术</td>
                     <td class="value">
                         <span class="tec">Linux</span> /
                         <span class="tec">Python</span> /
@@ -86,53 +75,135 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="name vertical-top">自我介绍</td>
+                    <td class="label">期望</td>
+                    <td class="value">上海/合肥 大数据工程师 40k-60K</td>
+                </tr>
+                <tr>
+                    <td class="label vertical-top">介绍</td>
                     <td class="value">
                         <span class="tec">
-                            从事数据开发很长时间了，有过开心有过难过，有过困难有过释惑，无论如何，过去已逝，现在起又是新的征程，
-                            希望继续自己的爱好与工作，加油。
+                            从事数据研发很长时间了，有过开心有过难过，有过困难有过释惑，无论如何，过去已逝，现在起又是新的征程，
+                            希望继续充满激情对待自己的爱好与工作，加油。
                         </span>
-
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2">
 
+                </tr>
+                <tr>
+                    <td class="label category">工作经历</td>
+                </tr>
+                <tr>
+                    <td class="label vertical-top date">2020.07 - 至今</td>
+                    <td class="value">
+                        <div class="contents">修身养性
+                        </div>
                     </td>
                 </tr>
-            </table>
-        </div>
-    </div>
-    <div id="right-container">
-        <div class="header">工作经历</div>
-        <div class="job">
-            <div class="company">上海好体信息科技有限公司</div>
-            <div class="date">2016.02 - 2021.07</div>
-            <div class="contents"></div>
-        </div>
-        <div class="job">
-            <div class="company">上海梭翱科技有限公司</div>
-            <div class="date">2015.10 - 2015.12</div>
-            <div class="contents">
-                数据抓取及处理
-            </div>
-            <div class="note">由于公司业务调整，创业小组自由择业。</div>
-        </div>
-        <div class="job">
-            <div class="company">恺英网络股份有限公司</div>
-            <div class="date">2015.03 - 2015.10</div>
-            <div class="contents">研发恺英网络游戏的SDK平台</div>
-        </div>
-        <div class="job">
-            <div class="company">中新网络信息安全股份有限公司</div>
-            <div class="date">2012.12 - 2014.09</div>
-            <div class="contents">oa系统和cgi web系统</div>
-        </div>
-        <div>
-            <div class="company">八零动漫</div>
-            <div class="date">2011.06 - 2012.06</div>
-            <div class="contents">网页游戏算法工作</div>
-        </div>
+                <tr>
+                    <td class="label vertical-top date">2016.02 - 2020.07</td>
+                    <td class="value">
+                        <div class="company">
+                            <span class="name">上海好体信息科技有限公司（上海）</span>
+                            <span class="position">数据中心部门主管</span>
+                        </div>
+                        <div class="contents">
+                            <div class="job">
+                                负责数据中心搭建工作，包括数据库架构设计，数据接入，清洗，标准化及对外商业API等
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label vertical-top date">
+                        <span class="date">2015.10 - 2015.12</span>
+                    </td>
+                    <td class="value">
+                        <div class="company">
+                            <span class="name">上海梭翱科技有限公司（上海）</span>
+                            <span class="position">数据研发工程师</span>
+                        </div>
+                        <div class="contents">
+                            <div class="project">产品：北美findnlove导购网站</div>
+                            <div class="job">
+                                负责数据库设计，后台系统研发，抓取商品及数据清洗等。
+                            </div>
+                        </div>
+                        <div class="note">
+                            项目组创业失败，成员自主择业。
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label vertical-top date">2015.03 - 2015.10
+                    </td>
+                    <td class="value">
+                        <div class="company">
+                            <span class="name">恺英网络股份有限公司（上海）</span>
+                            <span class="position">平台研发工程师</span>
+                        </div>
+                        <div class="contents">
+                            <div class="project">产品：恺英游戏SDK平台</div>
+                            <div class="job">
+                                研发SDK接口，国际支付接入，发货测试及平台数据统计工作
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label vertical-top date">2014.10 - 2015.01</td>
+                    <td class="value">
+                        <div class="company">
+                            <span class="name">广州</span>
+                            <span class="position">帮朋友创业</span>
+                        </div>
+                        <div class="contents">
+                            <div class="project">产品：九章医疗视频在线演示系统</div>
+                            <div class="job">
+                                采用Flash的rtmfp通信协议，研发p2p视频通信系统
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label vertical-top date">2012.12 - 2014.09</td>
+                    <td class="value">
+                        <div class="company">
+                            <span class="name">中新网络信息安全股份有限公司（合肥）</span>
+                            <span class="position">平台研发工程师</span>
+                        </div>
+                        <div class="contents">
+                            <div class="project">产品：中新办公自动化系统-OA</div>
+                            <div class="job">
+                                负责OA数据库设计，权限系统，自定义工作流系统，考勤系统研发
+                            </div>
+                        </div>
+                        <div class="contents">
+                            <div class="project">产品：cgi web系统</div>
+                            <div class="job">
+                                自定义编译模块，调试定制硬件防火墙系统命令，获取自定义shell命令的输出结果，展示到页面
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label vertical-top date">2011.06 - 2012.05</td>
+                    <td class="value">
+                        <div class="company">
+                            <span class="name">八零动漫（合肥）</span>
+                            <span class="position">算法工程师</span>
+                        </div>
+                        <div class="contents">
+                            <div class="project">产品：小小斗鱼</div>
+                            <div class="job">负责网页游戏（小小斗鱼）离线算法工作</div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </div>
 </body>

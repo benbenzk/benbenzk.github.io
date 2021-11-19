@@ -16,13 +16,13 @@ body{
     background: #fbfbfb;
 }
 #person table tr .label{
-    color: #888;
-    width: 25%;
+    color: #333;
+    width: 30%;
     text-align: right;
     padding-right: 2%;
 }
 #person table tr .category{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     font-style: italic;
     color: #000;
@@ -37,6 +37,13 @@ body{
     vertical-align: middle;
     border: 0
 }
+#person .icon{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    text-align: center;
+}
+
 #person table tr .vertical-top{
     vertical-align: top;
 }
@@ -45,7 +52,15 @@ body{
     padding-left: 2%;
 }
 #person table tr .value .tec{
-    font-style: italic;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    color: #9fa3b0;
+    padding: 0 14px;
+    margin-right: 10px;
+    border: 1px solid #cfd1d7;
+    border-radius: 50px;
+    margin-bottom: 7px;
 }
 #person .value .big{
     font-size:20px;
@@ -57,11 +72,55 @@ body{
     position: relative;
 }
 .value .contents{
-    color: #6d6d6d;
-    line-height: 1.5;
+    font-size: 12px;
+    color: #222;
+    line-height: 2.0;
+}
+.value .company .name{
+    font-weight: bolder;
 }
 
-table .date{
-    color: #777;
-    font-size: 14px;
+.position{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #222;
+    padding: 0 14px;
+    margin-right: 10px;
+    border: 1px solid #cfd1d7;
+    border-radius: 50px;
+    margin-bottom: 7px;
+    background: #b7ffc9;
+}
+
+.bolder{
+    font-weight: bolder;
+}
+
+.location{
+    color: #888;
+}
+.margin-top-10{
+    margin-top: 10px;
+}
+.margin-left-5{
+    margin-left: 5px;
+}
+.margin-left-10{
+    margin-left: 10px;
+}
+.margin-left-20{
+    margin-left: 20px;
+}
+.margin-right-5{
+    margin-right: 5px;
+}
+.margin-right-10{
+    margin-right: 10px;
+}
+.split-line{
+    color: #bbbeee;
+    margin-left: 5px;
+    margin-right: 5px;
 }
